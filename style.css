@@ -77,6 +77,9 @@ p{
   transform: translateY(-100px);
   animation: element-pop .4s .7s forwards;
 }
+.cta-button:hover{
+  transform: scale(1.1);
+}
 
 nav{
   display: flex;
@@ -129,6 +132,7 @@ li:nth-child(3) { animation-delay: 1s }
   100%{
     transform: translateX(0);
     opacity: 1;
+    transform: none;
   }
 }
 @keyframes slide-text2{
@@ -139,6 +143,7 @@ li:nth-child(3) { animation-delay: 1s }
   100%{
     transform: translateX(0);
     opacity: 1;
+    transform: none;
   }
 }
 @keyframes icon-slide {
@@ -149,5 +154,6 @@ li:nth-child(3) { animation-delay: 1s }
   100%{
     transform: translateY(0);
     opacity: 1;
+    transform: none;
   }
 }
